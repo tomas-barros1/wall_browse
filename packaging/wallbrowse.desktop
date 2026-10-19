@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WallBrowse
+Comment=Discover, preview, and download wallpapers
+Exec=wallbrowse
+Icon=wallbrowse
+Terminal=false
+Categories=Graphics;Photography;
+StartupNotify=true

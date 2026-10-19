@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#565f89"/>
+      <stop offset="1" stop-color="#24283b"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="#1a1b26"/>
+  <rect x="42" y="42" width="172" height="172" rx="30" fill="#24283b" stroke="#414868" stroke-width="6"/>
+  <clipPath id="photo"><rect x="54" y="54" width="148" height="148" rx="20"/></clipPath>
+  <g clip-path="url(#photo)">
+    <path fill="url(#sky)" d="M54 54h148v148H54z"/>
+    <circle cx="158" cy="94" r="19" fill="#e0af68"/>
+    <path fill="#7aa2f7" d="m45 175 53-59 24 25 23-29 70 73v27H45z"/>
+    <path fill="url(#mountain)" d="m46 190 47-47 22 22 34-41 65 65v19H46z"/>
+    <path fill="#9ece6a" d="m82 155 11-12 11 12-11-4zM135 137l14-17 13 17-13-5z" opacity=".9"/>
+    <path fill="#1a1b26" d="M54 184q35-12 72 0t76-2v20H54z" opacity=".45"/>
+  </g>
+  <path d="M180 60h7m-3.5-3.5v7" stroke="#c0caf5" stroke-width="3" stroke-linecap="round"/>
+</svg>

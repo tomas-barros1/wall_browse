@@ -1,0 +1,20 @@
+[package]
+name = "wallbrowse"
+version = "0.1.0"
+edition = "2024"
+description = "A native wallpaper discovery and download application"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+directories = "6.0"
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "links", "wayland", "x11"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp", "gif"] }
+reqwest = { version = "0.13", default-features = false, features = ["rustls", "json", "stream", "query"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "sync", "time"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+futures-util = "0.3"
+
